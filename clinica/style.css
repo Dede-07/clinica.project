@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yesteryear&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8aae3;
+    height: 80px;
+}
+
+header h1 {
+    font-size: 60px;
+    font-weight: normal;
+    color: white;
+    font-family: 'Yesteryear', cursive;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.box-img {
+    display: flex;
+    justify-content: center;
+    width: 35%;
+}
+
+.responsiva {
+    max-width: 100%;
+}
+
+.box-txt {
+    display: flex;
+    flex-flow: row wrap;
+    width: 35%;
+}
+
+.box-txt span {
+    color: gray;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.box-txt h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 80px;
+    color: #ce4ec4;
+    font-weight: 800;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 70px;
+}
+
+.box-txt p {
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.btn-hero {
+    background: #ce4ec4;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s all;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.btn-hero:hover {
+    background: #da2387;
+    font-size: 18px;
+}
+
+.box-item {
+    width: 30%;
+    height: 380px;
+    background: #f6d9f4;
+    margin: 5px;
+    padding: 30px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.especialidades {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.m-top {
+    background: #ce4ec4;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    border-radius: 5px;
+    transition: 0.5s all;
+    margin-bottom: 30px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.m-top:hover {
+    background: #da2387;
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background: #e8aae3;
+    height: 150px;
+    color: white;
+    font-size: 22px;
+}
+
+.whats {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
