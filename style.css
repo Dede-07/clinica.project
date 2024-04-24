@@ -129,11 +129,16 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column;
     margin-top: 100px;
     background: #e8aae3;
     height: 150px;
     color: white;
     font-size: 22px;
+}
+
+.social {
+    display: flex;
 }
 
 .whats {
